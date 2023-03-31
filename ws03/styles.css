@@ -1,28 +1,58 @@
 body {
     background: black;
+    background-image: url("tausta.gif");
     color: white;
-
 }
 
 h1 {
     font-size: 20px;
+    border-style: dotted;
+    border-width: 25px;
+    font-family: sans-serif;
+    padding: 10px;
+    margin: 30px;
 }
 
 p {
     font-size: 12px;
     color: lightgray;
+    background: gray;
+    border-radius: 25px;
+    padding: 20px;
+    width: 200px;
+    height: 30px;    
+    margin: 30px;  
 }
+
+a {
+    margin: 30px;
+    color: white;
+}
+
+#rcorners1 {
+    
+    background: #73AD21;
+    
+  }
 
 .myDiv {
     border: 2px dotted;
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 150px;
+    padding: 30px;
+    margin: 30px;
 }
 
 ol {
     list-style-type: armenian;
+    margin: 30px;
 }
 
 ul {
     list-style-type: upper-latin;
+    margin: 30px;
+}
+
+img {
+    margin: 30px;
 }
