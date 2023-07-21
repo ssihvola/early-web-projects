@@ -1,5 +1,14 @@
+body {
+    background-color: rgb(15, 165, 115);
+}
+
+.site-body {
+    text-align: center;
+}
+
 h1 {
     color:brown;
+    font-family: monospace, sans-serif;
 } 
 
 ul {
