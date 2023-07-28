@@ -3,7 +3,11 @@ body {
 }
 
 .site-body {
-    text-align: center;
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    object-fit: scale-down;
 }
 
 h1 {
@@ -15,6 +19,6 @@ ul {
     list-style: none;
 }
 
-.center-aligned {
-    text-align: center;
+img {
+    
 }
