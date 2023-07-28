@@ -17,6 +17,11 @@ h1 {
 
 ul {
     list-style: none;
+    padding: 5px;
+}
+
+ol {
+    padding: 15px;
 }
 
 img {
