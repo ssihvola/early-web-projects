@@ -24,3 +24,16 @@ img {
     max-height: 100%;
     display: block;
 }
+
+.links {
+    box-sizing: content-box;
+    margin: auto;
+    width: 140px;
+    height: 20px;
+    padding: 5px;
+    border: 5px solid darkkhaki;
+}
+
+.link-text {
+    color: black;
+}
