@@ -25,16 +25,32 @@ img {
     display: block;
 }
 
-.description {
+.title {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    object-fit: scale-down;
+}
 
+.description {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    object-fit: scale-down;
 }
 
 .ingredients {
-
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    object-fit: scale-down;
 }
 
 .steps {
-    
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    object-fit: scale-down;
 }
 
 .links {
