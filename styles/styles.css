@@ -10,9 +10,16 @@ body {
     object-fit: scale-down;
 }
 
+a {
+    color: azure;
+}
+
 h1 {
     color:brown;
     font-family: monospace, sans-serif;
+    border: 5px dotted white;
+    padding: 10px;
+    margin-right: 20px;
 } 
 
 ul {
@@ -69,4 +76,14 @@ img {
 
 .link-text {
     color: black;
+}
+
+.index-links {
+    display: inline;
+    margin-right: 10px;
+    font-family: monospace;
+    font-size: 20px;
+    color: azure;
+    border: 5px dotted blue;
+    padding: 10px;
 }
