@@ -157,3 +157,18 @@ a {
 button.block-button {
     border: 2px solid;
 }
+
+/* Copyright */
+
+.copyright {
+    background-color: rgb(23, 3, 78);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.copyright-text {
+    font-size: 20px;
+}
