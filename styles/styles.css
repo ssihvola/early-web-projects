@@ -1,5 +1,14 @@
-/* The following classes are part of the header container */
+button {
+    background-color: rgb(59, 124, 199);
+    color: inherit;
+    font-weight: 600;
+    padding: 10px 32px;
+    border: none;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
 
+/* The following classes are part of the header container */
 .header {
     background-image: linear-gradient(to right, rgb(80, 58, 209), rgb(53, 5, 109));
     color: white;
@@ -58,14 +67,60 @@ a {
     text-decoration: none; 
 }
 
-button {
-    background-color: rgb(59, 124, 199);
-    color: inherit;
-    font-weight: 600;
-    padding: 10px 32px;
-    border: none;
-    border-radius: 10px;
-    flex-shrink: 0;
+/* These belong to information container */ 
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0px;
 }
 
-/* These belong to information container */ 
+.information-title {
+    font-weight: 900;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.cards {
+    display: flex;
+    padding: 10px 200px;
+}
+
+.card {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(95, 93, 93)
+}
+
+.bird-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 4px rgb(51, 127, 226) solid;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Then there is the quote part */
+
+.quote {
+    background-color: rgb(223, 216, 216);
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-paragraph {
+    font-size: 40px;
+    font-style: italic;
+}
+
+.quote-signature {
+    align-self: self-end;
+    font-weight: 900;
+    font-size: 26px;
+}
