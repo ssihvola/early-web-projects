@@ -1,0 +1,35 @@
+/* The following classes are part of the header container */
+
+.header {
+    background-image: linear-gradient(to right, rgb(80, 58, 209), rgb(53, 5, 109));
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-logo-links {
+
+}
+
+.logo {
+
+}
+
+.title {
+
+}
+
+.title-paragraph {
+
+}
+
+.signup {
+
+}
+
+.image-peru {
+    width: 100%;
+}
+
+/* These belong to information container */ 
