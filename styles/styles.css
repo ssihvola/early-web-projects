@@ -109,7 +109,7 @@ a {
 
 .quote {
     background-color: rgb(223, 216, 216);
-    padding: 150px;
+    padding: 150px 300px;
     display: flex;
     flex-direction: column;
 }
@@ -120,7 +120,40 @@ a {
 }
 
 .quote-signature {
-    align-self: self-end;
+    align-self: end;
     font-weight: 900;
     font-size: 26px;
+}
+
+/* Signup */
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+
+.signup-block {
+    background-color: rgb(76, 130, 231);
+    color: white;
+    padding: 48px 150px;
+    display: flex;
+    gap: 100px;
+    border-radius: 12px;
+}
+
+.block-title-paragraph {
+    display: flex;
+    flex-direction: column;
+}
+
+.block-title {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 2px;
+}
+
+button.block-button {
+    border: 2px solid;
 }
