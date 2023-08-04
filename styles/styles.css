@@ -7,6 +7,7 @@ button {
     background-color: rgb(59, 124, 199);
     color: inherit;
     font-weight: 600;
+    font-size: 18px;
     padding: 10px 32px;
     border: none;
     border-radius: 10px;
