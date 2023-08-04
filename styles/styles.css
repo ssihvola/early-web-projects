@@ -1,3 +1,7 @@
+body {
+    margin: 0;
+}
+
 button {
     background-color: rgb(59, 124, 199);
     color: inherit;
@@ -10,7 +14,7 @@ button {
 
 /* The following classes are part of the header container */
 .header {
-    background-image: linear-gradient(to right, rgb(80, 58, 209), rgb(53, 5, 109));
+    background-color: #1F2937;
     color: white;
     display: flex;
     flex-direction: column;
@@ -43,6 +47,7 @@ button {
 }
 
 .title-paragraph {
+    font-size: 18px;
     padding: 0;
 }
 
@@ -108,7 +113,7 @@ a {
 /* Then there is the quote part */
 
 .quote {
-    background-color: rgb(223, 216, 216);
+    background-color: #E5E7EB;
     padding: 150px 300px;
     display: flex;
     flex-direction: column;
@@ -161,7 +166,7 @@ button.block-button {
 /* Copyright */
 
 .copyright {
-    background-color: rgb(23, 3, 78);
+    background-color: #1F2937;
     color: white;
     display: flex;
     justify-content: center;
