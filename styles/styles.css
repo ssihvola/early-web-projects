@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: sans-serif;
 }
 
 button {
@@ -175,5 +176,5 @@ button.block-button {
 }
 
 .copyright-text {
-    font-size: 20px;
+    font-size: 16px;
 }
