@@ -1,1 +1,0 @@
-Verkkosivujen kehittäminen -opintojakson repositorio
