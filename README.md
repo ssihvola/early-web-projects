@@ -1,3 +1,3 @@
 # Early Web Projects
 
-Here are some of my first website demos archived. 1 school project and some Odin Project stuff. 
+Here are some of my first website demos archived. There's a school project and some Odin Project stuff. 
